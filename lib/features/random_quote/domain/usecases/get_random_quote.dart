@@ -43,7 +43,6 @@ class GetRandomQuote implements UseCase<Quote,NoParams>{
 //
 //   const LoginParams({required this.userName, required this.password});
 //   @override
-//   // TODO: implement props
 //   List<Object?> get props => [userName,password];
 //
 // }
