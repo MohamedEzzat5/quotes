@@ -13,7 +13,7 @@ class AppRoutes {
     switch (routeSettings.name) {
       case Routes.initialRoute:
         return MaterialPageRoute(
-          builder: (context) => const QuoteScreen(),
+          builder: (context) => QuoteScreen(),
         );
 
       case Routes.favouriteQuoteRoute:
