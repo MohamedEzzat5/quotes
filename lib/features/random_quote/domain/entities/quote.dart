@@ -15,9 +15,9 @@ class Quote extends Equatable {
 
   @override
   List<Object?> get props => [
-        author,
-        id,
-        content,
-        permalink,
-      ];
+    author,
+    id,
+    content,
+    permalink,
+  ];
 }

@@ -13,8 +13,8 @@ class QuoteRepositoryImpl implements QuoteRepository {
   final NetworkInfo networkInfo;
 
   QuoteRepositoryImpl(
-      this.randomQuoteRemoteDataSource, this.randomQuoteLocalDataSource,
-      {required this.networkInfo});
+
+      {required this.networkInfo,required this.randomQuoteRemoteDataSource, required this.randomQuoteLocalDataSource,});
 
   @override
   Future<Either<Failure, Quote>> getRandomQuote() async {

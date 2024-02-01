@@ -8,4 +8,6 @@ class AppStrings{
   static const String serverFailure ='Server Failure';
   static const String cacheFailure ='Cache Failure';
   static const String unexpectedError ='Unexpected Error';
+  static const String apiKeyName ='X-Api-Key';
+  static const String apiKey ='hIQuz1G7IaVrviuF2XIwIpSt967mvDlsilyk3nNG';
 }

@@ -14,5 +14,3 @@ class GetRandomQuote implements UseCase<Quote, NoParams> {
     quoteRepository.getRandomQuote();
 
 }
-
-
